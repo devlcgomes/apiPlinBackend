@@ -5,7 +5,7 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+  <p align="center">API desenvolvida para <a href="http://nodejs.org" target="_blank">Node.js</a> a empresa Plin.</p>
     <p align="center">
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
@@ -22,17 +22,14 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
+## Instalação
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Rodando a aplicação
 
 ```bash
 # development
@@ -45,7 +42,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Testes
 
 ```bash
 # unit tests
@@ -58,16 +55,15 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Qual foi a maior dificuldade que você enfrentou ao realizar o teste?
+ - A variação de dados dependendo do horário do dia foi algo interessante de fazer.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Descreva a funcionalidade e o por quê da utilização das bibliotecas
+escolhidas por você para concluir o desafio.
+ - A api trás produtos por meio do cardápio. Contem 2, um para modo diurno e um para noturno, os produtos podem ser organizado por categorias.
+ - Possui um CRUD para cardapio, categorias e produtos.
+ - A API conta com documentação via SWAGGER.
 
-## Stay in touch
+## Como você se vê daqui a 5 anos?
+ - Um profissional ja formado, fluente em ingles e senior em desenvolvimento. Desejo estar bem financeiramente, no meu casamento e principalmente na minha vida com Deus, que para mim é o centro de todas as coisas.
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
